@@ -2,18 +2,16 @@
 
 <html>
 <body>
-<h1>Notebook Analysis Descriptions</h1>
-<h2>Analysis 1: </h2><p>aggregate the sales of every year plot the values print(df_new.loc[df_new['Global_Sales'] ==354.25 ])</p>
-<h2>Analysis 2: </h2><p>aggregate the number of releases of each company plot the values</p>
-<h2>Analysis 3: </h2><p>get the total sales in each region for each genre set the colour palette</p>
-<h2>Analysis 4: </h2><p>grouping the North America sales based on each platform Grouping the europe sales based on each platform Grouping the global sales based on each platform Concatenating our datasets</p><h2>Analysis 5: </h2><p>plot platforms released each year</p>
-<h2>Analysis 6: </h2><p>Grouping the global sales for action genre Grouping the global sales for sports genre Grouping the global sales for misc genre Grouping the global sales for role-playing genre Grouping the global sales for shooter genre Grouping the global sales for adventure genre Grouping the global sales for race genre Grouping the global sales for platform genre Grouping the global sales for simulation genre Grouping the global sales for fight genre Grouping the global sales for strategy genre Grouping the global sales for puzzle genre plotting values in stacked bar</p>
-<h2>Analysis 7: </h2><p>Finding the percentage of each genre that has been downloaded plot values</p>
-<h2>Analysis 8: </h2><p>plot values Finding the maximum Sales produced by genre in each year</p>
-<h2>Analysis 9: </h2><p>Pie chart depicts the relationship of parts to the whole when there are a small number of levels. get ratio plot ratio</p>
-<h2>Analysis 10: </h2><p>print(df4) df1 = df4.loc[:,['Rating','Company']] print(df1) print(df2) Rounded off the value upto 2 decimal places Rounded off the value upto 2 decimal places To find the mean ratings of each genre above bar graph</p>
-<h2>Analysis 11: </h2><p>Heatmap is best suitable to find the correlation between all attributes
-</p><h2>Analysis 12: </h2><p>Genre Platform Platform</p>
-<h2>Analysis 13: </h2><p>Company Nintendo with all ratings based on year wise print(df4) df10 = pd.DataFrame(df1['Rating'].groupby(df1['Year_of_Release']).mean()) print(df7) df2.plot(kind = 'bar',color = 'red')</p>
+<h2>Analysis 1: </h2><p><h4>Aggregate the sales of every year: The gaming industry started booming in the year 1996 and the year 2006 marks the highest sales of all time with a sale of 350 million dollars globally. Since 2010, the sales have experienced a steady decrease, telling us that the market for video games is quite unpredictable.</h4></p>
+<h2>Analysis 2: </h2><p>Aggregate the number of releases of each company: It is seen that the number of releases of games supports the finding that the market for video games boomed in the late 1990s. The year 2008 marked the highest number of games released with a total of 379 games released in the same year.</p>
+<h2>Analysis 3: </h2><p>Get the total sales in each region for each genre: The outer circle depicts sales in North America. The next inner circle depicts sales in Europe. The inner-most circle depicts sales in Japan. We observe that Action, sports, and shooter genres are popular in all the regions. But North America has more sales than Europe and Japan of video games.</p>
+<h2>Analysis 4: </h2><p>Sales Analysis of the most popular platform in all regions: It is seen that the consoles by Sony and Nintendo are the best-selling in all the regions. This graph also gives the idea that the popularity of video games in North America is higher than in other regions.</p>
+<h2>Analysis 5: </h2><p>Analyze the lifespan of consoles for each year: It is seen that the consoles by Sony and Nintendo are the best-selling in all the regions. This graph also gives the idea that the popularity of video games in North America is higher than in other regions.</p>
+<h2>Analysis 6: </h2><p>Analysis of Sales of Platform in each Genre:  It is observed that X360 is the best shooter console in the market and Wii is best known for its Sports console. PS3 is the best console for Action games, while PS2 is best for Race genres.</p>
+<h2>Analysis 7: </h2><p>Downloaded rate of each genre in the period 2013 to 2015: The downloads of the action genre are very consistent in this period. Fighting and Puzzle genres are the next most popular genres in the period.</p>
+<h2>Analysis 8: </h2><p>The Genre sold the most in a single year: It is seen that Sports was the most popular genre in the year 2006 with the highest sales globally. No other genre in the later years could beat the sales record of sports. Also, we observe that Action is the most popular genre for most of the years.</p>
+<h2>Analysis 9: </h2><p>Understanding the relation license and offline availability of Videogames: It is observed that irrespective of the licensed games, users prefer for the game to be available offline.</p>
+<h2>Analysis 10: </h2><p>Analysis of highest rated games of each company in the years 2003-2016:  It is observed that companies Activision Blizzard, DTP, Jester, MI, and Revolution Software have the highest rating games with an average of 9.3 ratings.</p>
+<h2>Analysis 11: </h2><p>Correlation between all Attributes: The NA_Sales and EU_sales have much effect in Global_Sales.So NA_Sales and EU_sales are highly corelated w.r.t Global Sales</p>
 </body>
 </html>
