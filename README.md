@@ -1,6 +1,7 @@
 # Video-Game-Analysis
 
-![Alt text](https://github.com/VIVPM/Video-Game-Analysis/blob/main/car.jpeg)
+![lambo](https://github.com/VIVPM/Video-Game-Analysis/assets/116868237/fb95e86a-014f-43a6-9b5f-f4e4ca971556)
+
 
 <html>
 <body>
